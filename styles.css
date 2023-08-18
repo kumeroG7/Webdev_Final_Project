@@ -1,0 +1,234 @@
+
+
+:root{
+    --primary-color: #ffffff;
+    --heading-bg-color: #1599aa;
+    --form-bg-color: hsl(120, 47%, 82%);
+    --table-bg-color: rgb(221, 158, 221);
+    --navigation-bg-color: rgb(58, 58, 206); 
+    --other-color: hwb(0 0% 100%); 
+}
+
+.page {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+.header{
+    height: 200px;
+}
+.brand{
+    height: 140px;
+}
+.navigation{
+    height: 120px;
+    background-color: rgb(27, 66, 236);
+    justify-content: center;
+    padding: 10px;
+    scroll-behavior: smooth;
+    height: 20%;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.brand a {
+    text-decoration: none;
+}
+
+.nav-item{
+    margin: 5px;
+    padding: 10px 20px;
+    color: var(--primary-color);
+    border: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: x-large;
+}
+.brand{
+    color: black;
+    font-size: 40px;
+    border-width: 5px; 
+    border-color: var(--other-color);
+    background-color: whitesmoke;
+    height: 100px;
+
+}
+.brand img{
+    display: left;
+}
+.brand h1 {
+    display: right;
+}
+.logo {
+    float: left;
+}
+.brand_name {
+    float: left;
+}
+.brand_name p {
+    font-size: 20px;
+}
+.title {
+    font-size: 80px;
+}
+header p {
+    text-align: center;
+    font-size: 10px;
+}
+
+.main-content{
+    background-color: rgb(180, 74, 194);
+    display: flex;
+}
+.main-content img{
+    float: left;
+}
+.main-content aside{
+    float: right;
+}
+aside {
+    color: antiquewhite;
+}
+
+
+.middle-content {
+    margin: 0 auto;
+    display: inline-block;
+}
+button {
+    outline: none;
+    border: none;
+    padding-top: 40px;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    display: block;
+}
+
+address {
+    display: block;
+}
+
+.heads{
+    background-color: aliceblue;
+    color: rgba(0, 0, 19, 0.932);
+}
+
+#one{
+    text-align: center;
+    color: rgb(207, 9, 144);
+    font-size: 40px;
+}
+p{
+    text-align: justify;
+    font-size: large;
+}
+
+table, th, td{
+    border-style: solid;
+    border-color: rgb(0, o, 0);
+    padding: auto;
+}
+
+.table{
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    font-size: larger;
+    caption-side: bottom;
+}
+
+caption{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(109, 109, 177);
+}
+
+tr:hover{
+    background-color: aquamarine;
+}
+
+form{
+    border: 1px solid black;
+    max-width: 40%;
+    background-color: whitesmoke;
+
+}
+
+.fieldsets{
+    border: none;
+}
+
+.legends{
+    font-size: 120%;
+    color: blueviolet;
+}
+#form-name{
+    font-size: 140%;
+    color: rgba(28, 6, 153, 0.87);
+    text-align: center;
+}
+/*-------log in form----------*/
+
+
+.logform{
+    align-content: center;
+    padding: 40px;
+    width: fit-content;
+    align-self: center;
+    margin: 40px auto;
+    background-color: hsl(189deg 29.83% 57.71% / 49%);
+    }
+.logform a {
+    text-decoration: none;
+}
+#main {
+    background-image: url(/Icons/log\ in\ bg.avif);
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-size: 100%;
+
+}
+#main image{
+    width: 100%;
+}
+
+/*==========sign up page =========*/
+.signform{
+    align-content: center;
+    padding: 40px;
+    width: fit-content;
+    align-self: center;
+    margin: 40px auto;
+    background-color: hsl(189deg 29.83% 57.71% / 49%);
+    }
+.signform a {
+    text-decoration: none;
+}
+#main2{
+    background-image: url(/Icons/signup\ bg.avif);
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-size: 100%;
+}
+
+.regmain{
+    background-image: url(/Icons/registration\ bg.avif);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    height: fit-content;
+    padding: 60px;
+}
+
+
+
